@@ -1,0 +1,22 @@
+body{
+    background-image: url("hd\ tra.jpg");
+}
+h1{
+    
+    padding: 20px;
+    text-align: center;
+    color: aqua;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    display: inline-block;
+    margin-right: 40px;
+    background-color: #da1cb0;
+    padding: 20px;
+    text-align: left;
+    color: #eeedee;
+}
+footer{
+    background-image: url("hd\ tra.jpg");
+}

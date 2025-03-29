@@ -1,0 +1,115 @@
+/**{
+    background-color: rgb(23, 189, 78);
+}
+*{
+    background-image:url(./imagengozu/camaro.jpg)
+}
+h1{ 
+    color: brown;
+}*/
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 20px;
+     background-size: 100%;
+    background-image: url("man111.jpg");
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #f1e9e9;
+    background-color: #000000;
+    
+  }
+  
+  
+  /* Encabezado */
+  
+  header {
+    background-color: #333030;
+    color: #fcf5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Navegación */
+  
+  nav {
+    background-color: #130505;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Contenido principal */
+  
+  main {
+    background-size: 50%;
+   /*border: 5px solid rgb(220, 235, 20);*/
+    background-image: url("shet.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  section {
+   /* background-color: #98a1a1;*/
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(236, 232, 232, 0.1);
+  }
+  
+  section h2 {
+    background-color: #40413c;
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  /* Pie de página */
+  
+  footer {
+  
+    margin-right: 20px;
+    
+    background-size: 50%;
+   /* background-image: url("hd\ tra.jpg");*/
+    
+   /* background-color: #696966;*/
+   font-weight: 700;
+    color: #f0e00a;
+    padding: 2px;
+    margin-top: 5px;
+   
+    text-align: center;
+    clear: both;
+  }
+  
